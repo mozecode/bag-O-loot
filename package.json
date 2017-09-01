@@ -1,0 +1,20 @@
+{
+  "name": "bag-O-loot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lootbag.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --watch --recursive -R spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0",
+    "sqlite3": "^3.1.9"
+  }
+}
